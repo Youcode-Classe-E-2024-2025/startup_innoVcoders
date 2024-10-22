@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Jura,sans-serif;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+.title {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color:  #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.shoes {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+    gap: 15px;
+}
+.shoe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.shoe-image {
+    width: 80px;
+    
+}
+.shoe-text {
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    flex-basis: 70%;
+}
+.shoe-text h3 {
+    background-color: #e5e5e5;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.shoe-text h3 , .shoe-text p {
+     padding: 4px 8px;
+}
+.shoe-btn {
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3S;
+}
+.shoe-btn:hover {
+    transform: translateY(-10%);
+    background-color: rgb(223, 255, 175);
+}
+.shoe-image , .shoe-text , .shoe-btn {
+    box-shadow: 0 1px 2px 0 #DFDFDF;
+    border-radius: 5px;
+}
+.blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #dfdfdf36;
+    backdrop-filter: blur(5px);
+    left: 0;
+    top: 0;
+    display: none;
+}
+.overlay {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 700px;
+    background-color: white;
+    z-index: 2;
+    box-shadow:0 0 7px 1px #c6c6c6;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+    grid-template-columns: auto 1fr;
+    row-gap: 10px;
+}
+.overlay img {
+    width: 300px;
+    box-shadow: 0 1px 3px 0 #c6c6c6;
+}
+.overlay-text {
+    padding: 20px;
+    padding-top: 50px;
+}
+.overlay-text h3 {
+    margin-bottom: 30px;
+    background-color: #DFDFDF;
+    width: fit-content;
+    padding: 3px 6px;
+}
+.overlay-text p {
+    line-height: 1.5;
+}
+.overlay button {
+    width: fit-content;
+    justify-self: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    align-self: center;
+    transition: .3s;
+}
+.overlay button:hover {
+    background-color: rgb(223, 255, 175);
+}
+.overlay .price {
+    background-color: #DFDFDF;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    width: fit-content;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.materials {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
