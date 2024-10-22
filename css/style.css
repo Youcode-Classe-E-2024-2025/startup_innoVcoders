@@ -1,50 +1,89 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* ========================= CSS du header et ses composants ================================*/
+nav img {
+    margin-left: 10%;
+}
+
 nav {
-  margin-top: 2%;
-  background-color: #f1f1f1;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  font-family: "Jura", sans-serif;
-  font-weight: 600;
-  padding: 1px 0;
+    margin-top: 2%;
+    background-color: #f1f1f1;
+    font-family: "Jura", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 nav ul {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  list-style: none;
+    display: flex; /* Affiche le menu par défaut */
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1%;
 }
 
 nav ul li {
-  margin: 0 10%;
-  white-space: nowrap;
-  display: inline;
-  margin-right: 30px;
+    margin: 0 1em;
+    white-space: nowrap;
 }
 
 nav a {
-  display: block;
-  padding: 1em 2em;
-  color: black;
-  text-decoration: none;
-  /* transition: background-color 0.3s ease, color 0.3s ease; */
-  transition: 0.3s;
-  font-size: 16px;
+    color: black;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
-  background-color: #9c9898d3;
-  border-radius: 1em;
+    background-color: #9c9898d3;
+    border-radius: 1em;
+    padding: 10px;
 }
 
+/* Styles pour le menu hamburger */
+.menu-toggle {
+    display: none; /* Cacher le toggle par défaut */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background: black;
+    margin: 4px 0;
+}
+
+.menu-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Media query pour les appareils mobiles */
 @media (max-width: 768px) {
-  
+    nav ul {
+        margin-top: 5%;
+        flex-direction: column;
+        position: absolute;
+        background: #f1f1f1;
+        width: 100%;
+        top: 60px; /* Ajustez en fonction de votre header */
+        left: 0;
+        z-index: 10; /* Assurez-vous que le menu est au-dessus d'autres éléments */
+    }
+    nav img {
+        margin-top: 0;
+    }
+
+    nav ul.active {
+        display: flex; /* Affiche le menu lorsque la classe active est ajoutée */
+    }
+
+    .menu-toggle {
+        display: flex; 
+    }
+
+    nav a {
+        font-size: 18px; /* Ajustement de la taille de police pour mobile */
+    }
 }
