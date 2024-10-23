@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nike Store</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/landingpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../landingpageimg/faveicon.png" type="image/x-icon">
+
 </head>
 
 
@@ -41,8 +43,21 @@
                 <button class="btn btn-1"><a href="products.html" class="stylebtn">Get Yours Today</a></button>
             </div>
             <div class="image-cnt i1">
-                <img src="../landingpageimg/shoe1.png" alt="">
+                <!-- Carousel -->
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="../landingpageimg/shoe1.png" alt="Shoe 1" class="active">
+                        <img src="../landingpageimg/shoes1.png" alt="Shoe 2">
+                        <img src="../landingpageimg/shoes3.png" alt="Shoe 3">
+                        <img src="../landingpageimg/shoes4.png" alt="Shoe 4">
+                    </div>
+                    <button class="carousel-button prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="carousel-button next" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+                <script src="../js/landingpage.js"></script>
             </div>
+
+
         </div>
 
         <h1 class="Collections-title">Explore Our Best-Selling Collections</h1>
