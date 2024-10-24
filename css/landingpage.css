@@ -178,9 +178,6 @@ html{
     background-color: rgb(184, 220, 67);
 }
 
-.faq{
-    margin-top: 6%;
-}
 
 @media (max-width: 1190px) {
     .landing-container {
