@@ -298,3 +298,20 @@ html{
 .carousel-button.next {
     right: 10px;
 }
+
+
+.Ratting-text{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Ratting-text h1{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.Ratting-stars-img{
+    width: 300px;
+    display: flex;
+    justify-self: center;
+}
