@@ -53,3 +53,36 @@
     margin: 0;
 
 }
+/* affichage des petits ecrans */
+@media (max-width: 768px) {
+    .section-container h2 {
+        font-size: 24px;
+    }
+
+    .section-container p {
+        font-size: 16px; 
+    }
+
+    .oval-background {
+        padding: 20px; 
+    }
+
+    .oval-background:before {
+        width: 80%; 
+        height: 70%; 
+    }
+
+    .cover img {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .section-container h2 {
+        font-size: 12px;
+    }
+
+    .section-container p {
+        font-size: 10px; 
+    }
+}
