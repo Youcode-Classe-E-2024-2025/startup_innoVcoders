@@ -36,6 +36,7 @@ main {
     padding-bottom: 15px;
     border-bottom: 1px solid #e5e5e5;
 }
+
 .shoe-image {
     width: 80px;
     
@@ -137,4 +138,34 @@ main {
 .materials {
     padding-left: 20px;
     padding-bottom: 30px;
+}
+.overlay-text h3 {
+    text-wrap: nowrap;
+}
+@media(max-width : 700px) {
+    .shoe {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .shoe-text {
+
+        text-align: center;
+    }
+    .shoe-text h3 {
+        width: 100%;
+    }
+    .overlay img {
+        width: 200px;
+       
+    }
+    .overlay-text {
+        padding: 10px;
+        padding-top: 25px;
+    }
+    .overlay-text p {
+        line-height: 1.2;
+        font-size: 14px;
+    }
+   
 }
