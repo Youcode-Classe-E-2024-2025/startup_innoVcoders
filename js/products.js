@@ -4,7 +4,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43, 44],
         "price": 150,
         "stock": 25,
-        "materials": ["mesh", "rubber"],
+        "materials": ["mesh", "rubber", "foam", "synthetic"],
         "color": ["black", "white", "red"],
         "description": "Iconic Air Max cushioning for all-day comfort.",
         "image": "../images/shoe1.png"
@@ -14,7 +14,7 @@ const shoes = [
         "sizes": [41, 42, 43, 44],
         "price": 160,
         "stock": 30,
-        "materials": ["mesh", "foam"],
+        "materials": ["mesh", "foam", "synthetic", "rubber"],
         "color": ["blue", "green", "gray"],
         "description": "Designed to help reduce injury with soft cushioning.",
         "image": "../images/shoe2.png"
@@ -24,7 +24,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43, 44],
         "price": 90,
         "stock": 40,
-        "materials": ["leather", "rubber"],
+        "materials": ["leather", "rubber", "canvas", "synthetic"],
         "color": ["white", "black", "red"],
         "description": "Classic design with premium materials for a timeless look.",
         "image": "../images/shoe3.png"
@@ -34,7 +34,7 @@ const shoes = [
         "sizes": [42, 43, 44],
         "price": 250,
         "stock": 10,
-        "materials": ["mesh", "carbon fiber"],
+        "materials": ["mesh", "carbon fiber", "foam", "synthetic"],
         "color": ["yellow", "black"],
         "description": "Engineered for speed and efficiency in racing.",
         "image": "../images/shoe4.png"
@@ -44,7 +44,7 @@ const shoes = [
         "sizes": [41, 42, 43],
         "price": 160,
         "stock": 20,
-        "materials": ["leather", "synthetic"],
+        "materials": ["leather", "synthetic", "rubber", "mesh"],
         "color": ["black", "red", "white"],
         "description": "A cultural icon that transcends basketball.",
         "image": "../images/shoe1.png"
@@ -54,7 +54,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43],
         "price": 120,
         "stock": 35,
-        "materials": ["mesh", "rubber"],
+        "materials": ["mesh", "rubber", "foam", "synthetic"],
         "color": ["gray", "blue", "green"],
         "description": "Flexible and lightweight, ideal for natural running.",
         "image": "../images/shoe2.png"
@@ -64,7 +64,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43],
         "price": 110,
         "stock": 15,
-        "materials": ["neoprene", "rubber"],
+        "materials": ["neoprene", "rubber", "leather", "synthetic"],
         "color": ["black", "white", "purple"],
         "description": "Retro design with a snug fit for everyday wear.",
         "image": "../images/shoe3.png"
@@ -74,7 +74,7 @@ const shoes = [
         "sizes": [41, 42, 43, 44],
         "price": 130,
         "stock": 18,
-        "materials": ["mesh", "rubber"],
+        "materials": ["mesh", "rubber", "synthetic", "foam"],
         "color": ["red", "black", "gray"],
         "description": "Sock-like fit for ultimate comfort and support.",
         "image": "../images/shoe4.png"
@@ -84,7 +84,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43],
         "price": 110,
         "stock": 25,
-        "materials": ["leather", "canvas"],
+        "materials": ["leather", "canvas", "rubber", "synthetic"],
         "color": ["blue", "pink", "white"],
         "description": "Skate shoes with a streetwear edge.",
         "image": "../images/shoe1.png"
@@ -94,7 +94,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43, 44],
         "price": 120,
         "stock": 30,
-        "materials": ["mesh", "foam"],
+        "materials": ["mesh", "foam", "synthetic", "rubber"],
         "color": ["black", "blue", "orange"],
         "description": "Versatile running shoes for all levels.",
         "image": "../images/shoe2.png"
@@ -104,7 +104,7 @@ const shoes = [
         "sizes": [42, 43, 44],
         "price": 150,
         "stock": 12,
-        "materials": ["synthetic", "rubber"],
+        "materials": ["synthetic", "rubber", "foam", "mesh"],
         "color": ["black", "silver"],
         "description": "Innovative cushioning technology for responsiveness.",
         "image": "../images/shoe3.png"
@@ -114,7 +114,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43],
         "price": 100,
         "stock": 22,
-        "materials": ["leather", "rubber"],
+        "materials": ["leather", "rubber", "canvas", "synthetic"],
         "color": ["white", "black"],
         "description": "Classic basketball silhouette with a vintage vibe.",
         "image": "../images/shoe4.png"
@@ -124,7 +124,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43],
         "price": 75,
         "stock": 50,
-        "materials": ["leather", "synthetic"],
+        "materials": ["leather", "synthetic", "rubber", "mesh"],
         "color": ["white", "blue"],
         "description": "Stylish and versatile shoes inspired by basketball.",
         "image": "../images/shoe1.png"
@@ -134,7 +134,7 @@ const shoes = [
         "sizes": [41, 42, 43],
         "price": 180,
         "stock": 15,
-        "materials": ["mesh", "leather"],
+        "materials": ["mesh", "leather", "rubber", "foam"],
         "color": ["gray", "neon"],
         "description": "Famous for its visible Air cushioning and bold design.",
         "image": "../images/shoe2.png"
@@ -144,7 +144,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43],
         "price": 90,
         "stock": 28,
-        "materials": ["leather", "synthetic"],
+        "materials": ["leather", "synthetic", "rubber", "mesh"],
         "color": ["white", "black"],
         "description": "Comfortable training shoe with classic style.",
         "image": "../images/shoe3.png"
@@ -154,7 +154,7 @@ const shoes = [
         "sizes": [41, 42, 43],
         "price": 140,
         "stock": 16,
-        "materials": ["flyknit", "foam"],
+        "materials": ["flyknit", "foam", "rubber", "synthetic"],
         "color": ["black", "green"],
         "description": "Lightweight running shoe with adaptive fit.",
         "image": "../images/shoe4.png"
@@ -164,7 +164,7 @@ const shoes = [
         "sizes": [40, 41, 42, 43],
         "price": 130,
         "stock": 20,
-        "materials": ["mesh", "foam"],
+        "materials": ["mesh", "foam", "synthetic", "rubber"],
         "color": ["blue", "orange"],
         "description": "Stability and cushioning for long runs.",
         "image": "../images/shoe1.png"
@@ -174,7 +174,7 @@ const shoes = [
         "sizes": [42, 43, 44],
         "price": 110,
         "stock": 18,
-        "materials": ["mesh", "rubber"],
+        "materials": ["mesh", "rubber", "synthetic", "canvas"],
         "color": ["black", "purple"],
         "description": "Retro running shoes with modern comfort.",
         "image": "../images/shoe2.png"
